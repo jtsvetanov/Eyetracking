@@ -1,0 +1,9 @@
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\bin\Debug\KeyBoardCSharp.exe.config
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\bin\Debug\KeyBoardCSharp.exe
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\bin\Debug\KeyBoardCSharp.pdb
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.csprojResolveAssemblyReference.cache
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.Form1.resources
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.Properties.Resources.resources
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.csproj.GenerateResource.Cache
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.exe
+C:\UIC\cs489\keyBoardcSharp\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.pdb
