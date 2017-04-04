@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using  System.Windows.Input;
 
 namespace KeyBoardCSharp
 {
@@ -17,9 +18,16 @@ namespace KeyBoardCSharp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 fm = new Form1();
+
+            //making the form transperent
             fm.Opacity = new Double();
             fm.Opacity = 0.90;
+
+            //making the form(keyboard) alway on top
+            fm.TopMost = true;
             Application.Run(fm);
+           
+             
         }
     }
 }
