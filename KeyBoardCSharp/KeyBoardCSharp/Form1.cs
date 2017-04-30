@@ -696,7 +696,7 @@ namespace KeyBoardCSharp
             }
             else
             {
-                SendKeys.Send("/");
+                SendKeys.Send("{/}");
             }
         }
 
@@ -767,7 +767,7 @@ namespace KeyBoardCSharp
             }
             else
             {
-                SendKeys.Send("1");
+                SendKeys.Send("{1}");
             }
         }
 
@@ -781,7 +781,7 @@ namespace KeyBoardCSharp
             }
             else
             {
-                SendKeys.Send("2");
+                SendKeys.Send("{2}");
             }
         }
 
@@ -795,7 +795,7 @@ namespace KeyBoardCSharp
             }
             else
             {
-                SendKeys.Send("3");
+                SendKeys.Send("{3}");
             }
         }
 
@@ -809,7 +809,7 @@ namespace KeyBoardCSharp
             }
             else
             {
-                SendKeys.Send("4");
+                SendKeys.Send("{4}");
             }
         }
 
@@ -817,13 +817,13 @@ namespace KeyBoardCSharp
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
             {
-                SendKeys.Send("%");
+                SendKeys.Send("{%}");
                 checkBoxLeftShift.Checked = false;
                 checkBoxRightShift.Checked = false;
             }
             else
             {
-                SendKeys.Send("5");
+                SendKeys.Send("{5}");
             }
         }
 
@@ -831,13 +831,13 @@ namespace KeyBoardCSharp
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
             {
-                SendKeys.Send("^");
+                SendKeys.Send("{^}");
                 checkBoxLeftShift.Checked = false;
                 checkBoxRightShift.Checked = false;
             }
             else
             {
-                SendKeys.Send("6");
+                SendKeys.Send("{6}");
             }
         }
 
@@ -851,7 +851,7 @@ namespace KeyBoardCSharp
             }
             else
             {
-                SendKeys.Send("7");
+                SendKeys.Send("{7}");
             }
         }
 
@@ -859,13 +859,13 @@ namespace KeyBoardCSharp
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
             {
-                SendKeys.Send("*");
+                SendKeys.Send("{*}");
                 checkBoxLeftShift.Checked = false;
                 checkBoxRightShift.Checked = false;
             }
             else
             {
-                SendKeys.Send("8");
+                SendKeys.Send("{8}");
             }
         }
 
@@ -873,13 +873,13 @@ namespace KeyBoardCSharp
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
             {
-                SendKeys.Send("(");
+                SendKeys.Send("{(}");
                 checkBoxLeftShift.Checked = false;
                 checkBoxRightShift.Checked = false;
             }
             else
             {
-                SendKeys.Send("9");
+                SendKeys.Send("{9}");
             }
         }
 
@@ -887,13 +887,13 @@ namespace KeyBoardCSharp
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
             {
-                SendKeys.Send(")");
+                SendKeys.Send("{)}");
                 checkBoxLeftShift.Checked = false;
                 checkBoxRightShift.Checked = false;
             }
             else
             {
-                SendKeys.Send("0");
+                SendKeys.Send("{0}");
             }
         }
 
@@ -907,7 +907,7 @@ namespace KeyBoardCSharp
             }
             else
             {
-                SendKeys.Send("-");
+                SendKeys.Send("{-}");
             }
         }
 
@@ -915,7 +915,7 @@ namespace KeyBoardCSharp
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
             {
-                SendKeys.Send("+");
+                SendKeys.Send("{+}");
                 checkBoxLeftShift.Checked = false;
                 checkBoxRightShift.Checked = false;
             }
