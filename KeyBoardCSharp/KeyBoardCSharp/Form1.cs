@@ -821,6 +821,51 @@ namespace KeyBoardCSharp
       this.Visible = false;
     }
 
+    private void checkBoxRightShift_CheckedChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    private void buttonStartRight_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void buttonCtrlRight_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void buttonAltRight_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void buttonAltLeft_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void buttonStartLeft_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void checkBoxCtrlLeft_CheckedChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    private void checkBoxLeftShift_CheckedChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    private void checkBoxCapLock_CheckedChanged(object sender, EventArgs e)
+    {
+
+    }
+
 
     //helpful:
 

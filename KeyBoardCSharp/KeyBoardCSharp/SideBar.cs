@@ -22,7 +22,7 @@ namespace KeyBoardCSharp
     ShowButton form2 = new ShowButton();
     private void SideBar_Load(object sender, EventArgs e)
     {
-      this.Width = 82;
+      this.Width = 80;
       int x = Screen.PrimaryScreen.WorkingArea.Width - this.Width;
       int y = Screen.PrimaryScreen.WorkingArea.Height / 3;
       this.TopMost = true;
@@ -52,10 +52,23 @@ namespace KeyBoardCSharp
       }
         
     }
-
+    int flag = 0;
     private void button3_Click(object sender, EventArgs e)
     {
-
+      if (flag == 0)
+      {
+        int x = Screen.PrimaryScreen.WorkingArea.Width - this.Width + 60;
+        int y = Screen.PrimaryScreen.WorkingArea.Height / 3;
+        this.Location = new Point(x, y);
+        flag = 1;
+      }
+      else if (flag == 1)
+      {
+        int x = Screen.PrimaryScreen.WorkingArea.Width - this.Width;
+        int y = Screen.PrimaryScreen.WorkingArea.Height / 3;
+        this.Location = new Point(x, y);
+        flag = 0;
+      }
     }
   }
 }
