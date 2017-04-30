@@ -63,10 +63,9 @@
             this.buttonX = new System.Windows.Forms.Button();
             this.buttonZ = new System.Windows.Forms.Button();
             this.checkBoxLeftShift = new System.Windows.Forms.CheckBox();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.buttonSpace = new System.Windows.Forms.Button();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.buttonAltLeft = new System.Windows.Forms.Button();
+            this.buttonStartLeft = new System.Windows.Forms.Button();
+            this.checkBoxCtrlLeft = new System.Windows.Forms.CheckBox();
             this.button49 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
@@ -122,6 +121,7 @@
             this.buttonPageUp = new System.Windows.Forms.Button();
             this.buttonPageDown = new System.Windows.Forms.Button();
             this.buttonPrntScr = new System.Windows.Forms.Button();
+            this.buttonSpace = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonT
@@ -537,50 +537,41 @@
             this.checkBoxLeftShift.Text = "Shift";
             this.checkBoxLeftShift.UseVisualStyleBackColor = true;
             // 
-            // button52
+            // buttonAltLeft
             // 
-            this.button52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button52.Location = new System.Drawing.Point(185, 300);
-            this.button52.Margin = new System.Windows.Forms.Padding(4);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(342, 50);
-            this.button52.TabIndex = 41;
-            this.button52.Text = "Space";
-            this.button52.UseVisualStyleBackColor = true;
-            this.button52.Click += new System.EventHandler(this.button52_Click);
+            this.buttonAltLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAltLeft.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonAltLeft.Location = new System.Drawing.Point(127, 300);
+            this.buttonAltLeft.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonAltLeft.Name = "buttonAltLeft";
+            this.buttonAltLeft.Size = new System.Drawing.Size(50, 50);
+            this.buttonAltLeft.TabIndex = 40;
+            this.buttonAltLeft.Text = "Alt";
+            this.buttonAltLeft.UseVisualStyleBackColor = true;
             // 
-            // button53
+            // buttonStartLeft
             // 
-            this.button53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button53.Location = new System.Drawing.Point(127, 300);
-            this.button53.Margin = new System.Windows.Forms.Padding(4);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(50, 50);
-            this.button53.TabIndex = 40;
-            this.button53.Text = "Alt";
-            this.button53.UseVisualStyleBackColor = true;
+            this.buttonStartLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStartLeft.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonStartLeft.Location = new System.Drawing.Point(69, 300);
+            this.buttonStartLeft.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonStartLeft.Name = "buttonStartLeft";
+            this.buttonStartLeft.Size = new System.Drawing.Size(50, 50);
+            this.buttonStartLeft.TabIndex = 39;
+            this.buttonStartLeft.Text = "Start";
+            this.buttonStartLeft.UseVisualStyleBackColor = true;
             // 
-            // buttonSpace
+            // checkBoxCtrlLeft
             // 
-            this.buttonSpace.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSpace.Location = new System.Drawing.Point(69, 300);
-            this.buttonSpace.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonSpace.Name = "buttonSpace";
-            this.buttonSpace.Size = new System.Drawing.Size(50, 50);
-            this.buttonSpace.TabIndex = 39;
-            this.buttonSpace.Text = "Start";
-            this.buttonSpace.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(12, 298);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(50, 50);
-            this.checkBox3.TabIndex = 38;
-            this.checkBox3.Text = "Ctrl";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxCtrlLeft.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBoxCtrlLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxCtrlLeft.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.checkBoxCtrlLeft.Location = new System.Drawing.Point(12, 298);
+            this.checkBoxCtrlLeft.Name = "checkBoxCtrlLeft";
+            this.checkBoxCtrlLeft.Size = new System.Drawing.Size(50, 50);
+            this.checkBoxCtrlLeft.TabIndex = 38;
+            this.checkBoxCtrlLeft.Text = "Ctrl";
+            this.checkBoxCtrlLeft.UseVisualStyleBackColor = true;
             // 
             // button49
             // 
@@ -1222,11 +1213,23 @@
             this.buttonPrntScr.UseVisualStyleBackColor = true;
             this.buttonPrntScr.Click += new System.EventHandler(this.buttonPrntScr_Click);
             // 
+            // buttonSpace
+            // 
+            this.buttonSpace.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSpace.Location = new System.Drawing.Point(187, 299);
+            this.buttonSpace.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSpace.Name = "buttonSpace";
+            this.buttonSpace.Size = new System.Drawing.Size(342, 50);
+            this.buttonSpace.TabIndex = 114;
+            this.buttonSpace.Text = "Space";
+            this.buttonSpace.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1066, 357);
+            this.Controls.Add(this.buttonSpace);
             this.Controls.Add(this.buttonPrntScr);
             this.Controls.Add(this.buttonPageDown);
             this.Controls.Add(this.buttonPageUp);
@@ -1282,10 +1285,9 @@
             this.Controls.Add(this.button55);
             this.Controls.Add(this.button49);
             this.Controls.Add(this.button51);
-            this.Controls.Add(this.button52);
-            this.Controls.Add(this.button53);
-            this.Controls.Add(this.buttonSpace);
-            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.buttonAltLeft);
+            this.Controls.Add(this.buttonStartLeft);
+            this.Controls.Add(this.checkBoxCtrlLeft);
             this.Controls.Add(this.button38);
             this.Controls.Add(this.button39);
             this.Controls.Add(this.button40);
@@ -1365,10 +1367,9 @@
         private System.Windows.Forms.Button buttonX;
         private System.Windows.Forms.Button buttonZ;
         private System.Windows.Forms.CheckBox checkBoxLeftShift;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button buttonSpace;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.Button buttonAltLeft;
+        private System.Windows.Forms.Button buttonStartLeft;
+        private System.Windows.Forms.CheckBox checkBoxCtrlLeft;
         private System.Windows.Forms.Button button49;
         private System.Windows.Forms.Button button51;
         private System.Windows.Forms.Button button55;
@@ -1424,6 +1425,7 @@
         private System.Windows.Forms.Button buttonPageUp;
         private System.Windows.Forms.Button buttonPageDown;
         private System.Windows.Forms.Button buttonPrntScr;
+        private System.Windows.Forms.Button buttonSpace;
     }
 }
 

@@ -14,3 +14,5 @@ C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\obj\Debu
 C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.Form1.resources
 C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.Properties.Resources.resources
 C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.csproj.GenerateResource.Cache
+C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\bin\Debug\KeyBoardCSharp.exe
+C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\bin\Debug\KeyBoardCSharp.pdb

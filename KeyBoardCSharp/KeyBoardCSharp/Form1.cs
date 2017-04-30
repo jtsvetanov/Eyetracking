@@ -641,14 +641,16 @@ namespace KeyBoardCSharp
             SendKeys.Send("{BACKSPACE}");            
         }
 
-        private void button52_Click(object sender, EventArgs e)
-        {
-            SendKeys.Send(" ");
-        }
+
 
         private void buttonTab_Click(object sender, EventArgs e)
         {
             SendKeys.Send("{TAB}");
+        }
+
+        private void button52_Click(object sender, EventArgs e)
+        {
+
         }
 
 
