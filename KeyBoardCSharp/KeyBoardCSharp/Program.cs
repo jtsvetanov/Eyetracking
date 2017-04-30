@@ -22,7 +22,7 @@ namespace KeyBoardCSharp
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form1 fm = new Form1();
+            SideBar fm = new SideBar();
 
             //making the form transperent
             fm.Opacity = new Double();

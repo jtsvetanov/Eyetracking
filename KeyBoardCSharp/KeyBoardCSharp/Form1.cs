@@ -807,12 +807,26 @@ namespace KeyBoardCSharp
         
     }
 
-
-        //helpful:
-
-        //SendKeys.Send("{HOME}");
-        //SendKeys.Send("{END}");
-
-
+    private void Form1_Load(object sender, EventArgs e)
+    {
+      int x = Screen.PrimaryScreen.WorkingArea.Width / 2 - this.Width / 2;
+      int y = Screen.PrimaryScreen.WorkingArea.Height - this.Height;
+      this.Location = new Point(x, y);
+      this.TopMost = true;
+      this.Opacity = 0.9;
     }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+      this.Visible = false;
+    }
+
+
+    //helpful:
+
+    //SendKeys.Send("{HOME}");
+    //SendKeys.Send("{END}");
+
+
+  }
 }
