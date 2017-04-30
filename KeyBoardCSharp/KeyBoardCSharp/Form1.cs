@@ -428,122 +428,16 @@ namespace KeyBoardCSharp
         /// <param name="sender"></param>
         /// <param name="e"></param>
         /// 
-        private void buttonNum0_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{0}");
-            }
-        }
+  
 
-        private void buttonnum1_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{1}");
-            }
-        }
+           
+ 
+    
 
-        private void buttonNum2_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{2}");
-            }
-        }
+    
+         
 
-        private void buttonNum3_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{3}");
-            }
-        }
-
-        private void buttonNum4_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{4}");
-            }
-        }
-
-        private void buttonNum5_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{5}");
-            }
-        }
-
-        private void buttonNum6_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{6}");
-            }
-        }
-
-        private void buttonNum7_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{7}");
-            }
-        }
-
-        private void buttonNum8_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{8}");
-            }
-        }
-
-        private void buttonNum9_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{9}");
-            }
-        }
-
-        private void buttonNumRightSlash_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{/}");
-            }
-        }
-
-        private void buttonNumMultilication_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{*}");
-            }
-        }
-
-        private void buttonNumMinus_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{-}");
-            }
-        }
-
-        private void buttonNumPlus_Click(object sender, EventArgs e)
-        {
-            if (!checkBoxNumLock.Checked)
-            {
-                SendKeys.Send("{+}");
-            }
-        }
-
-        private void buttonNumEnter_Click(object sender, EventArgs e)
-        {            
-                SendKeys.Send("{ENTER}");           
-        }
+     
 
         private void buttonEnter_Click(object sender, EventArgs e)
         {
@@ -621,11 +515,7 @@ namespace KeyBoardCSharp
             SendKeys.Send("{PRTSC}");
         }
 
-        private void buttonScrlLock_Click(object sender, EventArgs e)
-        {
-            SendKeys.Send("{SCROLLLOCK}");
-        }
-
+    
         private void buttonPageUp_Click(object sender, EventArgs e)
         {
             SendKeys.Send("{PGUP}");
@@ -747,7 +637,7 @@ namespace KeyBoardCSharp
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
             {
-                SendKeys.Send("~");
+                SendKeys.Send("{~}");
                 checkBoxLeftShift.Checked = false;
                 checkBoxRightShift.Checked = false;
             }
@@ -924,6 +814,14 @@ namespace KeyBoardCSharp
                 SendKeys.Send("=");
             }
         }
+
+        private void buttonDel_Click(object sender, EventArgs e)
+        {
+         
+            SendKeys.Send("{DELETE}");
+        
+    }
+
 
 
 

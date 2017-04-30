@@ -83,27 +83,11 @@
             this.buttonNumOne = new System.Windows.Forms.Button();
             this.buttonBackSpace = new System.Windows.Forms.Button();
             this.buttonEnter = new System.Windows.Forms.Button();
-            this.buttonNum9 = new System.Windows.Forms.Button();
-            this.buttonNum8 = new System.Windows.Forms.Button();
-            this.buttonNum6 = new System.Windows.Forms.Button();
-            this.buttonNum5 = new System.Windows.Forms.Button();
-            this.buttonNum4 = new System.Windows.Forms.Button();
-            this.buttonNumEnter = new System.Windows.Forms.Button();
-            this.buttonNum3 = new System.Windows.Forms.Button();
-            this.buttonNum2 = new System.Windows.Forms.Button();
-            this.buttonnum1 = new System.Windows.Forms.Button();
-            this.buttonNum0 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.buttonDel = new System.Windows.Forms.Button();
             this.buttonQ = new System.Windows.Forms.Button();
             this.buttonVerticalBarRigthSlash = new System.Windows.Forms.Button();
             this.buttonStartRight = new System.Windows.Forms.Button();
             this.checkBoxRightShift = new System.Windows.Forms.CheckBox();
-            this.buttonNum7 = new System.Windows.Forms.Button();
-            this.checkBoxNumLock = new System.Windows.Forms.CheckBox();
-            this.buttonNumRightSlash = new System.Windows.Forms.Button();
-            this.buttonNumMultilication = new System.Windows.Forms.Button();
-            this.buttonNumMinus = new System.Windows.Forms.Button();
-            this.buttonNumPlus = new System.Windows.Forms.Button();
             this.buttonEsc = new System.Windows.Forms.Button();
             this.buttonF1 = new System.Windows.Forms.Button();
             this.buttonF2 = new System.Windows.Forms.Button();
@@ -117,7 +101,6 @@
             this.buttonF11 = new System.Windows.Forms.Button();
             this.buttonF10 = new System.Windows.Forms.Button();
             this.buttonF9 = new System.Windows.Forms.Button();
-            this.buttonScrlLock = new System.Windows.Forms.Button();
             this.buttonPageUp = new System.Windows.Forms.Button();
             this.buttonPageDown = new System.Windows.Forms.Button();
             this.buttonPrntScr = new System.Windows.Forms.Button();
@@ -585,7 +568,7 @@
             this.buttonCtrlRight.Location = new System.Drawing.Point(651, 301);
             this.buttonCtrlRight.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCtrlRight.Name = "buttonCtrlRight";
-            this.buttonCtrlRight.Size = new System.Drawing.Size(141, 50);
+            this.buttonCtrlRight.Size = new System.Drawing.Size(164, 50);
             this.buttonCtrlRight.TabIndex = 43;
             this.buttonCtrlRight.Text = "Ctrl";
             this.buttonCtrlRight.UseVisualStyleBackColor = true;
@@ -782,136 +765,17 @@
             this.buttonEnter.UseVisualStyleBackColor = true;
             this.buttonEnter.Click += new System.EventHandler(this.buttonEnter_Click);
             // 
-            // buttonNum9
+            // buttonDel
             // 
-            this.buttonNum9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum9.Location = new System.Drawing.Point(956, 126);
-            this.buttonNum9.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum9.Name = "buttonNum9";
-            this.buttonNum9.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum9.TabIndex = 70;
-            this.buttonNum9.Text = "9";
-            this.buttonNum9.UseVisualStyleBackColor = true;
-            this.buttonNum9.Click += new System.EventHandler(this.buttonNum9_Click);
-            // 
-            // buttonNum8
-            // 
-            this.buttonNum8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum8.Location = new System.Drawing.Point(898, 128);
-            this.buttonNum8.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum8.Name = "buttonNum8";
-            this.buttonNum8.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum8.TabIndex = 69;
-            this.buttonNum8.Text = "8";
-            this.buttonNum8.UseVisualStyleBackColor = true;
-            this.buttonNum8.Click += new System.EventHandler(this.buttonNum8_Click);
-            // 
-            // buttonNum6
-            // 
-            this.buttonNum6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum6.Location = new System.Drawing.Point(955, 183);
-            this.buttonNum6.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum6.Name = "buttonNum6";
-            this.buttonNum6.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum6.TabIndex = 74;
-            this.buttonNum6.Text = "6";
-            this.buttonNum6.UseVisualStyleBackColor = true;
-            this.buttonNum6.Click += new System.EventHandler(this.buttonNum6_Click);
-            // 
-            // buttonNum5
-            // 
-            this.buttonNum5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum5.Location = new System.Drawing.Point(897, 184);
-            this.buttonNum5.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum5.Name = "buttonNum5";
-            this.buttonNum5.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum5.TabIndex = 73;
-            this.buttonNum5.Text = "5";
-            this.buttonNum5.UseVisualStyleBackColor = true;
-            this.buttonNum5.Click += new System.EventHandler(this.buttonNum5_Click);
-            // 
-            // buttonNum4
-            // 
-            this.buttonNum4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum4.Location = new System.Drawing.Point(840, 183);
-            this.buttonNum4.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum4.Name = "buttonNum4";
-            this.buttonNum4.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum4.TabIndex = 72;
-            this.buttonNum4.Text = "4";
-            this.buttonNum4.UseVisualStyleBackColor = true;
-            this.buttonNum4.Click += new System.EventHandler(this.buttonNum4_Click);
-            // 
-            // buttonNumEnter
-            // 
-            this.buttonNumEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNumEnter.Location = new System.Drawing.Point(1013, 237);
-            this.buttonNumEnter.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNumEnter.Name = "buttonNumEnter";
-            this.buttonNumEnter.Size = new System.Drawing.Size(50, 108);
-            this.buttonNumEnter.TabIndex = 79;
-            this.buttonNumEnter.Text = "Enter";
-            this.buttonNumEnter.UseVisualStyleBackColor = true;
-            this.buttonNumEnter.Click += new System.EventHandler(this.buttonNumEnter_Click);
-            // 
-            // buttonNum3
-            // 
-            this.buttonNum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum3.Location = new System.Drawing.Point(956, 240);
-            this.buttonNum3.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum3.Name = "buttonNum3";
-            this.buttonNum3.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum3.TabIndex = 78;
-            this.buttonNum3.Text = "3";
-            this.buttonNum3.UseVisualStyleBackColor = true;
-            this.buttonNum3.Click += new System.EventHandler(this.buttonNum3_Click);
-            // 
-            // buttonNum2
-            // 
-            this.buttonNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum2.Location = new System.Drawing.Point(897, 242);
-            this.buttonNum2.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum2.Name = "buttonNum2";
-            this.buttonNum2.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum2.TabIndex = 77;
-            this.buttonNum2.Text = "2";
-            this.buttonNum2.UseVisualStyleBackColor = true;
-            this.buttonNum2.Click += new System.EventHandler(this.buttonNum2_Click);
-            // 
-            // buttonnum1
-            // 
-            this.buttonnum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonnum1.Location = new System.Drawing.Point(840, 242);
-            this.buttonnum1.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonnum1.Name = "buttonnum1";
-            this.buttonnum1.Size = new System.Drawing.Size(50, 50);
-            this.buttonnum1.TabIndex = 76;
-            this.buttonnum1.Text = "1";
-            this.buttonnum1.UseVisualStyleBackColor = true;
-            this.buttonnum1.Click += new System.EventHandler(this.buttonnum1_Click);
-            // 
-            // buttonNum0
-            // 
-            this.buttonNum0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum0.Location = new System.Drawing.Point(840, 295);
-            this.buttonNum0.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum0.Name = "buttonNum0";
-            this.buttonNum0.Size = new System.Drawing.Size(108, 50);
-            this.buttonNum0.TabIndex = 80;
-            this.buttonNum0.Text = "0\r\nIns";
-            this.buttonNum0.UseVisualStyleBackColor = true;
-            this.buttonNum0.Click += new System.EventHandler(this.buttonNum0_Click);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(956, 295);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 50);
-            this.button4.TabIndex = 85;
-            this.button4.Text = ".\r\nDel";
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttonDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDel.Location = new System.Drawing.Point(823, 71);
+            this.buttonDel.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonDel.Name = "buttonDel";
+            this.buttonDel.Size = new System.Drawing.Size(67, 50);
+            this.buttonDel.TabIndex = 85;
+            this.buttonDel.Text = ".\r\nDel";
+            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // buttonQ
             // 
@@ -959,77 +823,6 @@
             this.checkBoxRightShift.TabIndex = 89;
             this.checkBoxRightShift.Text = "Shift";
             this.checkBoxRightShift.UseVisualStyleBackColor = true;
-            // 
-            // buttonNum7
-            // 
-            this.buttonNum7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum7.Location = new System.Drawing.Point(840, 126);
-            this.buttonNum7.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNum7.Name = "buttonNum7";
-            this.buttonNum7.Size = new System.Drawing.Size(50, 50);
-            this.buttonNum7.TabIndex = 90;
-            this.buttonNum7.Text = "7";
-            this.buttonNum7.UseVisualStyleBackColor = true;
-            this.buttonNum7.Click += new System.EventHandler(this.buttonNum7_Click);
-            // 
-            // checkBoxNumLock
-            // 
-            this.checkBoxNumLock.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBoxNumLock.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxNumLock.Location = new System.Drawing.Point(840, 70);
-            this.checkBoxNumLock.Name = "checkBoxNumLock";
-            this.checkBoxNumLock.Size = new System.Drawing.Size(50, 50);
-            this.checkBoxNumLock.TabIndex = 91;
-            this.checkBoxNumLock.Text = "Num Lock";
-            this.checkBoxNumLock.UseVisualStyleBackColor = true;
-            // 
-            // buttonNumRightSlash
-            // 
-            this.buttonNumRightSlash.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNumRightSlash.Location = new System.Drawing.Point(898, 71);
-            this.buttonNumRightSlash.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNumRightSlash.Name = "buttonNumRightSlash";
-            this.buttonNumRightSlash.Size = new System.Drawing.Size(50, 50);
-            this.buttonNumRightSlash.TabIndex = 92;
-            this.buttonNumRightSlash.Text = "/";
-            this.buttonNumRightSlash.UseVisualStyleBackColor = true;
-            this.buttonNumRightSlash.Click += new System.EventHandler(this.buttonNumRightSlash_Click);
-            // 
-            // buttonNumMultilication
-            // 
-            this.buttonNumMultilication.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNumMultilication.Location = new System.Drawing.Point(956, 71);
-            this.buttonNumMultilication.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNumMultilication.Name = "buttonNumMultilication";
-            this.buttonNumMultilication.Size = new System.Drawing.Size(50, 50);
-            this.buttonNumMultilication.TabIndex = 93;
-            this.buttonNumMultilication.Text = "*";
-            this.buttonNumMultilication.UseVisualStyleBackColor = true;
-            this.buttonNumMultilication.Click += new System.EventHandler(this.buttonNumMultilication_Click);
-            // 
-            // buttonNumMinus
-            // 
-            this.buttonNumMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNumMinus.Location = new System.Drawing.Point(1013, 71);
-            this.buttonNumMinus.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNumMinus.Name = "buttonNumMinus";
-            this.buttonNumMinus.Size = new System.Drawing.Size(50, 50);
-            this.buttonNumMinus.TabIndex = 94;
-            this.buttonNumMinus.Text = "-";
-            this.buttonNumMinus.UseVisualStyleBackColor = true;
-            this.buttonNumMinus.Click += new System.EventHandler(this.buttonNumMinus_Click);
-            // 
-            // buttonNumPlus
-            // 
-            this.buttonNumPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNumPlus.Location = new System.Drawing.Point(1014, 129);
-            this.buttonNumPlus.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNumPlus.Name = "buttonNumPlus";
-            this.buttonNumPlus.Size = new System.Drawing.Size(50, 104);
-            this.buttonNumPlus.TabIndex = 95;
-            this.buttonNumPlus.Text = "+";
-            this.buttonNumPlus.UseVisualStyleBackColor = true;
-            this.buttonNumPlus.Click += new System.EventHandler(this.buttonNumPlus_Click);
             // 
             // buttonEsc
             // 
@@ -1187,25 +980,13 @@
             this.buttonF9.UseVisualStyleBackColor = true;
             this.buttonF9.Click += new System.EventHandler(this.buttonF9_Click);
             // 
-            // buttonScrlLock
-            // 
-            this.buttonScrlLock.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonScrlLock.Location = new System.Drawing.Point(855, 1);
-            this.buttonScrlLock.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonScrlLock.Name = "buttonScrlLock";
-            this.buttonScrlLock.Size = new System.Drawing.Size(67, 50);
-            this.buttonScrlLock.TabIndex = 110;
-            this.buttonScrlLock.Text = "Scroll Lock";
-            this.buttonScrlLock.UseVisualStyleBackColor = true;
-            this.buttonScrlLock.Click += new System.EventHandler(this.buttonScrlLock_Click);
-            // 
             // buttonPageUp
             // 
             this.buttonPageUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPageUp.Location = new System.Drawing.Point(922, 1);
+            this.buttonPageUp.Location = new System.Drawing.Point(823, 128);
             this.buttonPageUp.Margin = new System.Windows.Forms.Padding(4);
             this.buttonPageUp.Name = "buttonPageUp";
-            this.buttonPageUp.Size = new System.Drawing.Size(67, 50);
+            this.buttonPageUp.Size = new System.Drawing.Size(67, 109);
             this.buttonPageUp.TabIndex = 111;
             this.buttonPageUp.Text = "Page Up";
             this.buttonPageUp.UseVisualStyleBackColor = true;
@@ -1214,10 +995,10 @@
             // buttonPageDown
             // 
             this.buttonPageDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPageDown.Location = new System.Drawing.Point(997, 1);
+            this.buttonPageDown.Location = new System.Drawing.Point(823, 240);
             this.buttonPageDown.Margin = new System.Windows.Forms.Padding(4);
             this.buttonPageDown.Name = "buttonPageDown";
-            this.buttonPageDown.Size = new System.Drawing.Size(67, 50);
+            this.buttonPageDown.Size = new System.Drawing.Size(67, 109);
             this.buttonPageDown.TabIndex = 112;
             this.buttonPageDown.Text = "Page Down";
             this.buttonPageDown.UseVisualStyleBackColor = true;
@@ -1229,7 +1010,7 @@
             this.buttonPrntScr.Location = new System.Drawing.Point(780, 1);
             this.buttonPrntScr.Margin = new System.Windows.Forms.Padding(4);
             this.buttonPrntScr.Name = "buttonPrntScr";
-            this.buttonPrntScr.Size = new System.Drawing.Size(67, 50);
+            this.buttonPrntScr.Size = new System.Drawing.Size(110, 50);
             this.buttonPrntScr.TabIndex = 113;
             this.buttonPrntScr.Text = "Print Screen";
             this.buttonPrntScr.UseVisualStyleBackColor = true;
@@ -1251,12 +1032,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1066, 357);
+            this.ClientSize = new System.Drawing.Size(896, 357);
             this.Controls.Add(this.buttonSpace);
             this.Controls.Add(this.buttonPrntScr);
             this.Controls.Add(this.buttonPageDown);
             this.Controls.Add(this.buttonPageUp);
-            this.Controls.Add(this.buttonScrlLock);
             this.Controls.Add(this.buttonF12);
             this.Controls.Add(this.buttonF11);
             this.Controls.Add(this.buttonF10);
@@ -1270,27 +1050,11 @@
             this.Controls.Add(this.buttonF2);
             this.Controls.Add(this.buttonF1);
             this.Controls.Add(this.buttonEsc);
-            this.Controls.Add(this.buttonNumPlus);
-            this.Controls.Add(this.buttonNumMinus);
-            this.Controls.Add(this.buttonNumMultilication);
-            this.Controls.Add(this.buttonNumRightSlash);
-            this.Controls.Add(this.checkBoxNumLock);
-            this.Controls.Add(this.buttonNum7);
             this.Controls.Add(this.checkBoxRightShift);
             this.Controls.Add(this.buttonStartRight);
             this.Controls.Add(this.buttonVerticalBarRigthSlash);
             this.Controls.Add(this.buttonQ);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.buttonNum0);
-            this.Controls.Add(this.buttonNumEnter);
-            this.Controls.Add(this.buttonNum3);
-            this.Controls.Add(this.buttonNum2);
-            this.Controls.Add(this.buttonnum1);
-            this.Controls.Add(this.buttonNum6);
-            this.Controls.Add(this.buttonNum5);
-            this.Controls.Add(this.buttonNum4);
-            this.Controls.Add(this.buttonNum9);
-            this.Controls.Add(this.buttonNum8);
+            this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEnter);
             this.Controls.Add(this.buttonBackSpace);
             this.Controls.Add(this.buttonPlus);
@@ -1410,27 +1174,11 @@
         private System.Windows.Forms.Button buttonNumOne;
         private System.Windows.Forms.Button buttonBackSpace;
         private System.Windows.Forms.Button buttonEnter;
-        private System.Windows.Forms.Button buttonNum9;
-        private System.Windows.Forms.Button buttonNum8;
-        private System.Windows.Forms.Button buttonNum6;
-        private System.Windows.Forms.Button buttonNum5;
-        private System.Windows.Forms.Button buttonNum4;
-        private System.Windows.Forms.Button buttonNumEnter;
-        private System.Windows.Forms.Button buttonNum3;
-        private System.Windows.Forms.Button buttonNum2;
-        private System.Windows.Forms.Button buttonnum1;
-        private System.Windows.Forms.Button buttonNum0;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonDel;
         private System.Windows.Forms.Button buttonQ;
         private System.Windows.Forms.Button buttonVerticalBarRigthSlash;
         private System.Windows.Forms.Button buttonStartRight;
         private System.Windows.Forms.CheckBox checkBoxRightShift;
-        private System.Windows.Forms.Button buttonNum7;
-        private System.Windows.Forms.CheckBox checkBoxNumLock;
-        private System.Windows.Forms.Button buttonNumRightSlash;
-        private System.Windows.Forms.Button buttonNumMultilication;
-        private System.Windows.Forms.Button buttonNumMinus;
-        private System.Windows.Forms.Button buttonNumPlus;
         private System.Windows.Forms.Button buttonEsc;
         private System.Windows.Forms.Button buttonF1;
         private System.Windows.Forms.Button buttonF2;
@@ -1444,7 +1192,6 @@
         private System.Windows.Forms.Button buttonF11;
         private System.Windows.Forms.Button buttonF10;
         private System.Windows.Forms.Button buttonF9;
-        private System.Windows.Forms.Button buttonScrlLock;
         private System.Windows.Forms.Button buttonPageUp;
         private System.Windows.Forms.Button buttonPageDown;
         private System.Windows.Forms.Button buttonPrntScr;

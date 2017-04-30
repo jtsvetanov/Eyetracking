@@ -15,6 +15,11 @@ namespace KeyBoardCSharp
         [STAThread]
         static void Main()
         {
+
+            //system call to windows on screen keyboard
+            //System.Diagnostics.Process.Start("osk.exe");
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 fm = new Form1();
