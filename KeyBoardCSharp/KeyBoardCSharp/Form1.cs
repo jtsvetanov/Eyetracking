@@ -653,6 +653,278 @@ namespace KeyBoardCSharp
 
         }
 
+        private void buttonSpace_Click(object sender, EventArgs e)
+        {
+            SendKeys.Send(" ");
+        }
+
+        private void buttonLessThen_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("<");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send(",");
+            }
+        }
+
+        private void buttonGreaterThen_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send(">");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send(".");
+            }
+        }
+
+        private void buttonQuestionMarkSlash_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("?");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("/");
+            }
+        }
+
+        private void buttonColon_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send(":");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send(";");
+            }
+        }
+
+        private void buttonQuotesComaRight_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("\"");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("'");
+            }
+        }
+
+        private void buttonVerticalBarRigthSlash_Click(object sender, EventArgs e)
+        {
+
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("|");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("\\");
+            }
+        }
+
+        private void buttonTildeComma_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("~");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("`");
+            }
+        }
+
+        private void buttonNumOne_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("!");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("1");
+            }
+        }
+
+        private void buttonNumTwo_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("@");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("2");
+            }
+        }
+
+        private void buttonNumThree_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("#");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("3");
+            }
+        }
+
+        private void buttonNumFour_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("$");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("4");
+            }
+        }
+
+        private void buttonNumFive_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("%");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("5");
+            }
+        }
+
+        private void buttonNumSix_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("^");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("6");
+            }
+        }
+
+        private void buttonNumSeven_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("&");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("7");
+            }
+        }
+
+        private void buttonNumEight_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("*");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("8");
+            }
+        }
+
+        private void buttonNUmNine_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("(");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("9");
+            }
+        }
+
+        private void buttonNumZero_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send(")");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("0");
+            }
+        }
+
+        private void buttonMinus_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("_");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("-");
+            }
+        }
+
+        private void buttonPlus_Click(object sender, EventArgs e)
+        {
+            if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
+            {
+                SendKeys.Send("+");
+                checkBoxLeftShift.Checked = false;
+                checkBoxRightShift.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("=");
+            }
+        }
+
 
 
 
