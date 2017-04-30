@@ -420,25 +420,10 @@ namespace KeyBoardCSharp
             }
 
         }
-
-
-        /// <summary>
-        ///Numbers 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        /// 
-  
-
-           
- 
-    
-
-    
-         
-
-     
-
+    //
+   //Implementation of Enter, esc, Fs
+   //
+   
         private void buttonEnter_Click(object sender, EventArgs e)
         {
             SendKeys.Send("{ENTER}");
@@ -821,16 +806,6 @@ namespace KeyBoardCSharp
             SendKeys.Send("{DELETE}");
         
     }
-
-
-
-
-
-
-
-
-
-
 
 
         //helpful:
