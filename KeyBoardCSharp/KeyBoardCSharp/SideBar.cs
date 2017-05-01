@@ -40,7 +40,6 @@ namespace KeyBoardCSharp
     {
       if (form1.Visible)
       {
-        //form2.Show();
         form1.Hide();
       }
         
@@ -48,7 +47,6 @@ namespace KeyBoardCSharp
       else if (!form1.Visible)
       {
         form1.Show();
-        //form2.Hide();
       }
         
     }
@@ -69,6 +67,21 @@ namespace KeyBoardCSharp
         this.Location = new Point(x, y);
         flag = 0;
       }
+    }
+
+    double opacity = .9;
+    private void button4_Click(object sender, EventArgs e)
+    {
+      opacity = opacity - .2;
+
+      if (opacity < .1)
+      {
+        opacity = .9;
+      }
+
+      this.Opacity = opacity;
+      form1.Opacity = opacity;
+
     }
   }
 }
