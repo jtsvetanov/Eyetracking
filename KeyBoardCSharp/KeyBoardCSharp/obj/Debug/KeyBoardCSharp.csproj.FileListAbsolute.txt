@@ -49,3 +49,5 @@ C:\Users\Kevin\Desktop\CS 489\EYETRACKING GITHUB\Eyetracking\KeyBoardCSharp\KeyB
 C:\Users\Kevin\Desktop\CS 489\EYETRACKING GITHUB\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.ShowButton.resources
 C:\Users\Kevin\Desktop\CS 489\EYETRACKING GITHUB\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.SideBar.resources
 C:\Users\Kevin\Desktop\CS 489\EYETRACKING GITHUB\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.csproj.GenerateResource.Cache
+C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.ShowButton.resources
+C:\UIC\cs489\keyBoardcSharp\GitUbKeyboard\KeyBoardCSharp\KeyBoardCSharp\obj\Debug\KeyBoardCSharp.SideBar.resources
