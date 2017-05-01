@@ -153,6 +153,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonE_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 2;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonE_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 2;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonR_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -165,6 +179,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("r");
             }
+        }
+
+        private void buttonR_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 3;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonR_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 3;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonT_Click(object sender, EventArgs e)
@@ -181,6 +209,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonT_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 4;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonT_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 4;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonY_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -193,6 +235,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("y");
             }
+        }
+
+        private void buttonY_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 5;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonY_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 5;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonU_Click(object sender, EventArgs e)
@@ -209,6 +265,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonU_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 6;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonU_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 6;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonI_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -221,6 +291,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("i");
             }
+        }
+
+        private void buttonI_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 7;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonI_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 7;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonO_Click(object sender, EventArgs e)
@@ -237,6 +321,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonO_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 8;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonO_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 8;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonP_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -249,6 +347,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("p");
             }
+        }
+
+        private void buttonP_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 9;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonP_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 9;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonA_Click(object sender, EventArgs e)
@@ -265,6 +377,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonA_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 0;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonA_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 0;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonS_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -279,6 +405,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonS_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 1;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonS_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 1;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonF_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -291,6 +431,19 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("f");
             }
+        }
+        private void buttonF_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 3;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonF_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 3;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonG_Click(object sender, EventArgs e)
@@ -307,6 +460,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonG_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 4;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonG_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 4;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonH_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -319,6 +486,19 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("h");
             }
+        }
+        private void buttonH_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 5;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonH_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 5;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonJ_Click(object sender, EventArgs e)
@@ -335,6 +515,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonJ_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 6;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonJ_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 6;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonK_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -347,6 +541,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("k");
             }
+        }
+
+        private void buttonK_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 7;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonK_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 7;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonL_Click(object sender, EventArgs e)
@@ -363,6 +571,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonL_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 8;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonL_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 8;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonZ_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -375,6 +597,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("z");
             }
+        }
+
+        private void buttonZ_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 0;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonZ_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 0;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonX_Click(object sender, EventArgs e)
@@ -391,6 +627,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonX_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 1;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonX_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 1;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonC_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -403,6 +653,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("c");
             }
+        }
+
+        private void buttonC_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 2;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonC_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 2;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonV_Click(object sender, EventArgs e)
@@ -419,6 +683,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonV_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 3;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonV_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 3;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonB_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -431,6 +709,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("b");
             }
+        }
+
+        private void buttonB_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 4;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonB_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 4;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonN_Click(object sender, EventArgs e)
@@ -447,6 +739,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonN_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 5;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonN_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 5;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonM_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -461,6 +767,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonM_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 6;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonM_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 6;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonD_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -473,6 +793,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("d");
             }
+        }
+
+        private void buttonD_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 2;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonD_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 2;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonCurlyBracketOpen_Click(object sender, EventArgs e)
@@ -630,6 +964,22 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonLessThen_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 7;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonLessThen_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 7;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
+
+
         private void buttonGreaterThen_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -642,6 +992,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send(".");
             }
+        }
+
+        private void buttonGreaterThen_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 8;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonGreaterThen_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 8;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonQuestionMarkSlash_Click(object sender, EventArgs e)
@@ -658,6 +1022,20 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void buttonQuestionMarkSlash_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 9;
+            int y = 2;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonQuestionMarkSlash_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 9;
+            int y = 2;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonColon_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -670,6 +1048,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send(";");
             }
+        }
+
+        private void buttonColon_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 9;
+            int y = 1;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonColon_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 9;
+            int y = 1;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonQuotesComaRight_Click(object sender, EventArgs e)

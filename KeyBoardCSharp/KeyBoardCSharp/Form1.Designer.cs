@@ -121,6 +121,8 @@
             this.buttonT.Text = "T";
             this.buttonT.UseVisualStyleBackColor = false;
             this.buttonT.Click += new System.EventHandler(this.buttonT_Click);
+            this.buttonT.MouseEnter += new System.EventHandler(this.buttonT_MouseEnter);
+            this.buttonT.MouseLeave += new System.EventHandler(this.buttonT_MouseLeave);
             // 
             // checkBoxCapLock
             // 
@@ -151,6 +153,8 @@
             this.buttonP.Text = "P";
             this.buttonP.UseVisualStyleBackColor = false;
             this.buttonP.Click += new System.EventHandler(this.buttonP_Click);
+            this.buttonP.MouseEnter += new System.EventHandler(this.buttonP_MouseEnter);
+            this.buttonP.MouseLeave += new System.EventHandler(this.buttonP_MouseLeave);
             // 
             // buttonO
             // 
@@ -166,6 +170,8 @@
             this.buttonO.Text = "O";
             this.buttonO.UseVisualStyleBackColor = false;
             this.buttonO.Click += new System.EventHandler(this.buttonO_Click);
+            this.buttonO.MouseEnter += new System.EventHandler(this.buttonO_MouseEnter);
+            this.buttonO.MouseLeave += new System.EventHandler(this.buttonO_MouseLeave);
             // 
             // buttonI
             // 
@@ -181,6 +187,8 @@
             this.buttonI.Text = "I";
             this.buttonI.UseVisualStyleBackColor = false;
             this.buttonI.Click += new System.EventHandler(this.buttonI_Click);
+            this.buttonI.MouseEnter += new System.EventHandler(this.buttonI_MouseEnter);
+            this.buttonI.MouseLeave += new System.EventHandler(this.buttonI_MouseLeave);
             // 
             // buttonTab
             // 
@@ -228,6 +236,8 @@
             this.buttonE.Text = "E";
             this.buttonE.UseVisualStyleBackColor = false;
             this.buttonE.Click += new System.EventHandler(this.buttonE_Click);
+            this.buttonE.MouseEnter += new System.EventHandler(this.buttonE_MouseEnter);
+            this.buttonE.MouseLeave += new System.EventHandler(this.buttonE_MouseLeave);
             // 
             // buttonR
             // 
@@ -243,6 +253,8 @@
             this.buttonR.Text = "R";
             this.buttonR.UseVisualStyleBackColor = false;
             this.buttonR.Click += new System.EventHandler(this.buttonR_Click);
+            this.buttonR.MouseEnter += new System.EventHandler(this.buttonR_MouseEnter);
+            this.buttonR.MouseLeave += new System.EventHandler(this.buttonR_MouseLeave);
             // 
             // buttonY
             // 
@@ -258,6 +270,8 @@
             this.buttonY.Text = "Y";
             this.buttonY.UseVisualStyleBackColor = false;
             this.buttonY.Click += new System.EventHandler(this.buttonY_Click);
+            this.buttonY.MouseEnter += new System.EventHandler(this.buttonY_MouseEnter);
+            this.buttonY.MouseLeave += new System.EventHandler(this.buttonY_MouseLeave);
             // 
             // buttonU
             // 
@@ -273,6 +287,8 @@
             this.buttonU.Text = "U";
             this.buttonU.UseVisualStyleBackColor = false;
             this.buttonU.Click += new System.EventHandler(this.buttonU_Click);
+            this.buttonU.MouseEnter += new System.EventHandler(this.buttonU_MouseEnter);
+            this.buttonU.MouseLeave += new System.EventHandler(this.buttonU_MouseLeave);
             // 
             // buttonCurlyBracketOpen
             // 
@@ -333,6 +349,8 @@
             this.buttonColon.Text = ":\r\n;";
             this.buttonColon.UseVisualStyleBackColor = false;
             this.buttonColon.Click += new System.EventHandler(this.buttonColon_Click);
+            this.buttonColon.MouseEnter += new System.EventHandler(this.buttonColon_MouseEnter);
+            this.buttonColon.MouseLeave += new System.EventHandler(this.buttonColon_MouseLeave);
             // 
             // buttonL
             // 
@@ -348,6 +366,8 @@
             this.buttonL.Text = "L";
             this.buttonL.UseVisualStyleBackColor = false;
             this.buttonL.Click += new System.EventHandler(this.buttonL_Click);
+            this.buttonL.MouseEnter += new System.EventHandler(this.buttonL_MouseEnter);
+            this.buttonL.MouseLeave += new System.EventHandler(this.buttonL_MouseLeave);
             // 
             // buttonK
             // 
@@ -363,6 +383,8 @@
             this.buttonK.Text = "K";
             this.buttonK.UseVisualStyleBackColor = false;
             this.buttonK.Click += new System.EventHandler(this.buttonK_Click);
+            this.buttonK.MouseEnter += new System.EventHandler(this.buttonK_MouseEnter);
+            this.buttonK.MouseLeave += new System.EventHandler(this.buttonK_MouseLeave);
             // 
             // buttonJ
             // 
@@ -378,6 +400,8 @@
             this.buttonJ.Text = "J";
             this.buttonJ.UseVisualStyleBackColor = false;
             this.buttonJ.Click += new System.EventHandler(this.buttonJ_Click);
+            this.buttonJ.MouseEnter += new System.EventHandler(this.buttonJ_MouseEnter);
+            this.buttonJ.MouseLeave += new System.EventHandler(this.buttonJ_MouseLeave);
             // 
             // buttonH
             // 
@@ -393,6 +417,8 @@
             this.buttonH.Text = "H";
             this.buttonH.UseVisualStyleBackColor = false;
             this.buttonH.Click += new System.EventHandler(this.buttonH_Click);
+            this.buttonH.MouseEnter += new System.EventHandler(this.buttonH_MouseEnter);
+            this.buttonH.MouseLeave += new System.EventHandler(this.buttonH_MouseLeave);
             // 
             // buttonG
             // 
@@ -408,6 +434,8 @@
             this.buttonG.Text = "G";
             this.buttonG.UseVisualStyleBackColor = false;
             this.buttonG.Click += new System.EventHandler(this.buttonG_Click);
+            this.buttonG.MouseEnter += new System.EventHandler(this.buttonG_MouseEnter);
+            this.buttonG.MouseLeave += new System.EventHandler(this.buttonG_MouseLeave);
             // 
             // buttonF
             // 
@@ -423,6 +451,8 @@
             this.buttonF.Text = "F";
             this.buttonF.UseVisualStyleBackColor = false;
             this.buttonF.Click += new System.EventHandler(this.buttonF_Click);
+            this.buttonF.MouseEnter += new System.EventHandler(this.buttonF_MouseEnter);
+            this.buttonF.MouseLeave += new System.EventHandler(this.buttonF_MouseLeave);
             // 
             // buttonD
             // 
@@ -438,6 +468,8 @@
             this.buttonD.Text = "D";
             this.buttonD.UseVisualStyleBackColor = false;
             this.buttonD.Click += new System.EventHandler(this.buttonD_Click);
+            this.buttonD.MouseEnter += new System.EventHandler(this.buttonD_MouseEnter);
+            this.buttonD.MouseLeave += new System.EventHandler(this.buttonD_MouseLeave);
             // 
             // buttonS
             // 
@@ -453,6 +485,8 @@
             this.buttonS.Text = "S";
             this.buttonS.UseVisualStyleBackColor = false;
             this.buttonS.Click += new System.EventHandler(this.buttonS_Click);
+            this.buttonS.MouseEnter += new System.EventHandler(this.buttonS_MouseEnter);
+            this.buttonS.MouseLeave += new System.EventHandler(this.buttonS_MouseLeave);
             // 
             // buttonA
             // 
@@ -468,6 +502,8 @@
             this.buttonA.Text = "A";
             this.buttonA.UseVisualStyleBackColor = false;
             this.buttonA.Click += new System.EventHandler(this.buttonA_Click);
+            this.buttonA.MouseEnter += new System.EventHandler(this.buttonA_MouseEnter);
+            this.buttonA.MouseLeave += new System.EventHandler(this.buttonA_MouseLeave);
             // 
             // buttonQuestionMarkSlash
             // 
@@ -483,6 +519,8 @@
             this.buttonQuestionMarkSlash.Text = "?\r\n/";
             this.buttonQuestionMarkSlash.UseVisualStyleBackColor = false;
             this.buttonQuestionMarkSlash.Click += new System.EventHandler(this.buttonQuestionMarkSlash_Click);
+            this.buttonQuestionMarkSlash.MouseEnter += new System.EventHandler(this.buttonQuestionMarkSlash_MouseEnter);
+            this.buttonQuestionMarkSlash.MouseLeave += new System.EventHandler(this.buttonQuestionMarkSlash_MouseLeave);
             // 
             // buttonGreaterThen
             // 
@@ -498,6 +536,8 @@
             this.buttonGreaterThen.Text = ">\r\n.";
             this.buttonGreaterThen.UseVisualStyleBackColor = false;
             this.buttonGreaterThen.Click += new System.EventHandler(this.buttonGreaterThen_Click);
+            this.buttonGreaterThen.MouseEnter += new System.EventHandler(this.buttonGreaterThen_MouseEnter);
+            this.buttonGreaterThen.MouseLeave += new System.EventHandler(this.buttonGreaterThen_MouseLeave);
             // 
             // buttonLessThen
             // 
@@ -513,6 +553,8 @@
             this.buttonLessThen.Text = "<\r\n,";
             this.buttonLessThen.UseVisualStyleBackColor = false;
             this.buttonLessThen.Click += new System.EventHandler(this.buttonLessThen_Click);
+            this.buttonLessThen.MouseEnter += new System.EventHandler(this.buttonLessThen_MouseEnter);
+            this.buttonLessThen.MouseLeave += new System.EventHandler(this.buttonLessThen_MouseLeave);
             // 
             // buttonM
             // 
@@ -528,6 +570,8 @@
             this.buttonM.Text = "M";
             this.buttonM.UseVisualStyleBackColor = false;
             this.buttonM.Click += new System.EventHandler(this.buttonM_Click);
+            this.buttonM.MouseEnter += new System.EventHandler(this.buttonM_MouseEnter);
+            this.buttonM.MouseLeave += new System.EventHandler(this.buttonM_MouseLeave);
             // 
             // buttonN
             // 
@@ -543,6 +587,8 @@
             this.buttonN.Text = "N";
             this.buttonN.UseVisualStyleBackColor = false;
             this.buttonN.Click += new System.EventHandler(this.buttonN_Click);
+            this.buttonN.MouseEnter += new System.EventHandler(this.buttonN_MouseEnter);
+            this.buttonN.MouseLeave += new System.EventHandler(this.buttonN_MouseLeave);
             // 
             // buttonB
             // 
@@ -558,6 +604,8 @@
             this.buttonB.Text = "B";
             this.buttonB.UseVisualStyleBackColor = false;
             this.buttonB.Click += new System.EventHandler(this.buttonB_Click);
+            this.buttonB.MouseEnter += new System.EventHandler(this.buttonB_MouseEnter);
+            this.buttonB.MouseLeave += new System.EventHandler(this.buttonB_MouseLeave);
             // 
             // buttonV
             // 
@@ -573,6 +621,8 @@
             this.buttonV.Text = "V";
             this.buttonV.UseVisualStyleBackColor = false;
             this.buttonV.Click += new System.EventHandler(this.buttonV_Click);
+            this.buttonV.MouseEnter += new System.EventHandler(this.buttonV_MouseEnter);
+            this.buttonV.MouseLeave += new System.EventHandler(this.buttonV_MouseLeave);
             // 
             // buttonC
             // 
@@ -588,6 +638,8 @@
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = false;
             this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
+            this.buttonC.MouseEnter += new System.EventHandler(this.buttonC_MouseEnter);
+            this.buttonC.MouseLeave += new System.EventHandler(this.buttonC_MouseLeave);
             // 
             // buttonX
             // 
@@ -603,6 +655,8 @@
             this.buttonX.Text = "X";
             this.buttonX.UseVisualStyleBackColor = false;
             this.buttonX.Click += new System.EventHandler(this.buttonX_Click);
+            this.buttonX.MouseEnter += new System.EventHandler(this.buttonX_MouseEnter);
+            this.buttonX.MouseLeave += new System.EventHandler(this.buttonX_MouseLeave);
             // 
             // buttonZ
             // 
@@ -618,6 +672,8 @@
             this.buttonZ.Text = "Z";
             this.buttonZ.UseVisualStyleBackColor = false;
             this.buttonZ.Click += new System.EventHandler(this.buttonZ_Click);
+            this.buttonZ.MouseEnter += new System.EventHandler(this.buttonZ_MouseEnter);
+            this.buttonZ.MouseLeave += new System.EventHandler(this.buttonZ_MouseLeave);
             // 
             // checkBoxLeftShift
             // 
