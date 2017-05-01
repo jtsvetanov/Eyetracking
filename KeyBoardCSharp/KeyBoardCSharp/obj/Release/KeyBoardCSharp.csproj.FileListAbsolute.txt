@@ -1,0 +1,10 @@
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\bin\Release\KeyBoardCSharp.exe.config
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\bin\Release\KeyBoardCSharp.exe
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\bin\Release\KeyBoardCSharp.pdb
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Release\KeyBoardCSharp.Form1.resources
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Release\KeyBoardCSharp.Properties.Resources.resources
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Release\KeyBoardCSharp.ShowButton.resources
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Release\KeyBoardCSharp.SideBar.resources
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Release\KeyBoardCSharp.csproj.GenerateResource.Cache
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Release\KeyBoardCSharp.exe
+C:\Users\Michael Walsh\Documents\Eyetracking\KeyBoardCSharp\KeyBoardCSharp\obj\Release\KeyBoardCSharp.pdb

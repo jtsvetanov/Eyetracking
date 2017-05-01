@@ -7,12 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/*Coords For the array of buttons
+ * Q(0,0)    W   E   R   T   Y   U   I   O   P
+ * A(1,0)    S   D   F   G   H   J   K   L   ;
+ * Z(2,0)   X   C   V   B   N   M   ,   .   /(2,9)
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 namespace KeyBoardCSharp
 {
     public partial class Form1 : Form
     {
-
+        public int bWidth = 10;
+        public int bHeight = 3;
+        public Button[,] myButtonArray;
         protected override CreateParams CreateParams
         {
             get
@@ -25,6 +42,8 @@ namespace KeyBoardCSharp
         public Form1()
         {
             InitializeComponent();
+            
+            myButtonArray = new Button[,] { { this.buttonQ, this.buttonW, this.buttonE, this.buttonR, this.buttonT, this.buttonY, this.buttonU, this.buttonI, this.buttonO, this.buttonP }, { this.buttonA, this.buttonS, this.buttonD, this.buttonF, this.buttonG, this.buttonH, this.buttonJ, this.buttonK, this.buttonL, this.buttonColon }, { this.buttonZ, this.buttonX, this.buttonC, this.buttonV, this.buttonB, this.buttonN, this.buttonM, this.buttonLessThen, this.buttonGreaterThen, this.buttonQuestionMarkSlash } };
         }
 
         private void buttonQ_Click(object sender, EventArgs e)
@@ -42,6 +61,56 @@ namespace KeyBoardCSharp
             }
         }
 
+        private void sizeChangeNeighbor(int x, int y, int direction)
+        {
+            myButtonArray[y, x].Anchor = (AnchorStyles.Bottom | AnchorStyles.Right);
+            myButtonArray[y, x].BringToFront();
+            myButtonArray[y, x].Size = new Size(myButtonArray[y, x].Size.Width + (25 * direction), myButtonArray[y, x].Size.Height + (25 * direction));
+            if (x - 1 >= 0)//left
+            {
+                myButtonArray[y, x - 1].Anchor = (AnchorStyles.Bottom | AnchorStyles.Right);
+                myButtonArray[y, x - 1].BringToFront();
+                myButtonArray[y, x - 1].Size = new Size(myButtonArray[y, x-1].Size.Width + (25 * direction), myButtonArray[y, x-1].Size.Height + (25 * direction));
+                myButtonArray[y, x - 1].Location = new Point(myButtonArray[y, x - 1].Location.X - 25*direction, myButtonArray[y, x - 1].Location.Y);
+            }
+            if (x + 1 < bWidth)//right
+            {
+                myButtonArray[y, x + 1].Anchor = (AnchorStyles.Bottom | AnchorStyles.Right);
+                myButtonArray[y, x + 1].BringToFront();
+                myButtonArray[y, x + 1].Size = new Size(myButtonArray[y, x+1].Size.Width + (25 * direction), myButtonArray[y, x+1].Size.Height + (25 * direction));
+                myButtonArray[y, x + 1].Location = new Point(myButtonArray[y, x + 1].Location.X + 25 * direction, myButtonArray[y, x + 1].Location.Y);
+            }
+            if (y - 1 >= 0) //up
+            {
+                myButtonArray[y - 1, x].Anchor = (AnchorStyles.Bottom | AnchorStyles.Right);
+                myButtonArray[y - 1, x].BringToFront();
+                myButtonArray[y - 1, x].Size = new Size(myButtonArray[y - 1, x].Size.Width + (25 * direction), myButtonArray[y - 1, x].Size.Height + (25 * direction));
+                myButtonArray[y - 1, x].Location = new Point(myButtonArray[y - 1, x].Location.X, myButtonArray[y - 1, x].Location.Y - 25 * direction);
+            }
+            if (y + 1 < bHeight)//down
+            {
+                myButtonArray[y + 1, x].Anchor = (AnchorStyles.Bottom | AnchorStyles.Right);
+                myButtonArray[y + 1, x].BringToFront();
+                myButtonArray[y + 1, x].Size = new Size(myButtonArray[y + 1, x].Size.Width + (25 * direction), myButtonArray[y + 1, x].Size.Height+(25*direction));
+                myButtonArray[y + 1, x].Location = new Point(myButtonArray[y + 1, x].Location.X, myButtonArray[y + 1, x].Location.Y + 25 * direction);
+            }
+
+        }
+
+        private void buttonQ_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 0;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonQ_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 0;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
+        }
+
         private void buttonW_Click(object sender, EventArgs e)
         {
             if (checkBoxCapLock.Checked || checkBoxLeftShift.Checked || checkBoxRightShift.Checked)
@@ -54,6 +123,20 @@ namespace KeyBoardCSharp
             {
                 SendKeys.Send("w");
             }
+        }
+
+        private void buttonW_MouseEnter(object sender, EventArgs e)
+        {
+            int x = 1;
+            int y = 0;
+            sizeChangeNeighbor(x, y, 1);
+
+        }
+        private void buttonW_MouseLeave(object sender, EventArgs e)
+        {
+            int x = 1;
+            int y = 0;
+            sizeChangeNeighbor(x, y, -1);
         }
 
         private void buttonE_Click(object sender, EventArgs e)
@@ -866,12 +949,14 @@ namespace KeyBoardCSharp
 
     }
 
-
-    //helpful:
-
-    //SendKeys.Send("{HOME}");
-    //SendKeys.Send("{END}");
+ 
 
 
-  }
+        //helpful:
+
+        //SendKeys.Send("{HOME}");
+        //SendKeys.Send("{END}");
+
+
+    }
 }
